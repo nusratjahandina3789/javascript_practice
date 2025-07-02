@@ -115,3 +115,29 @@
 // };
 // console.log(`My country name is ${country.countryName}. My country age is ${country.countryAge}.`);
 
+const myMark = 83;
+const schoolarshipMark = 81;
+if (myMark < 32) {
+    console.log("My result is F grade. \n");
+} else if (myMark >= 33 && myMark < 39) {
+    console.log("My result is D grade. \n");
+} else if (myMark >= 40 && myMark < 49) {
+    console.log("My result is C grade. \n");
+} else if (myMark >= 50 && myMark < 59) {
+    console.log("My result is B grade. \n");
+} else if (myMark >= 60 && myMark < 69) {
+    console.log("My result is A- grade. \n");
+} else if (myMark >= 70 && myMark < 79) {
+    console.log("My result is A grade. \n");
+} else if (myMark >= 80 && myMark <= 100) {
+    console.log("My result is A+ grade. \n");
+    if (myMark >= schoolarshipMark) {
+        console.log("I got schoolarship. \n");
+    } else {
+        console.log("I'm not eligible for schoolarship. \n");
+
+    }
+}
+else {
+    console.log("Result not found! \n");
+}
