@@ -135,7 +135,6 @@ if (myMark < 32) {
         console.log("I got schoolarship. \n");
     } else {
         console.log("I'm not eligible for schoolarship. \n");
-
     }
 }
 else {
