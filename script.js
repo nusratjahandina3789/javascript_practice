@@ -156,10 +156,23 @@
 //     console.log(i);
 //     i--;
 // }
-// 1 to 5 namta in nested loop
+
+// 1 to 5 namta in nested for loop
 //  var number = 5;
-//  for(var i = 1; i<= number; i++){
-//  for(var j = 1; j<= 10; j++){
+//  for(var i = 1; i <= number; i++){
+//  for(var j = 1; j <= 10; j++){
 //     document.write(i + " X " + j +" = " + i*j + "</br>");
 //  }
 //  }
+
+// 1 to 5 namta in nested while loop
+// var number = 5;
+// var i = 1;
+// while(i <= number){
+//     var j = 1;
+//     while(j <= 10){
+//         document.write(i + " X " + j +" = " + i*j + "</br>");
+//         j++;
+//     }
+//     i++;
+// }
