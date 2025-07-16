@@ -472,3 +472,62 @@
 // const newNumber = number.splice(2,3);
 // console.log(newNumber);
 //    console.log(number);
+// console.log(window);
+// getElementById
+// const dina = document.getElementById("one").innerHTML = "My Name is Dina"
+// console.log(dina);
+
+// getElementByClassName
+// const dina = document.getElementsByClassName("one")[1].innerHTML = "Nusrat"
+// console.log(dina);
+
+// getElementByTagName
+// console.log(document.getElementsByTagName("div"));
+
+// Difference in innerText innerHTML textConent
+// const dina = document.getElementById("one")
+// console.log(dina.innerText);
+// console.log(dina.innerHTML);
+// console.log(dina.textContent);
+
+// const result = document.getElementsByTagName("h1")
+// console.log(result);
+// // for(const element of result){
+// //     console.log(element);
+    
+// // }
+// const res = Array.from(result)
+// console.log(res);
+// res.map((item)=>{
+//     console.log(item);
+    
+// })
+
+// const result = document.querySelectorAll("h1")
+// console.log(result);
+// const res = Array.from(result)
+// console.log(res);
+// res.map((item)=>{
+//     console.log(item);
+    
+// })
+
+// Attribute Change
+// const dina = document.getElementById("one").src = "myImage.png"
+// console.log(dina);
+
+// Create Element
+
+// const parent = document.getElementById("list")
+// console.log(parent);
+
+// const liList = document.createElement("li")
+// liList.innerHTML = "Orange"
+// parent.append(liList)
+
+// li last child or first or nth child show
+
+// const parent = document.querySelector("#list li:last-child")
+// console.log(parent);
+
+
