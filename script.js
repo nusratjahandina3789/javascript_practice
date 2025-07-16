@@ -176,3 +176,299 @@
 //     }
 //     i++;
 // }
+// for in
+// const student = {
+//     name : "Dina",
+//     age : "20"
+
+// }
+// console.log(student);
+// for(const keys in student){
+//     console.log(keys);
+//     console.log(student[keys]);
+// }
+
+
+// for of
+// const fruit = "Apple";
+// for(const demo in fruit){
+//     console.log(demo);
+// }
+
+
+// const studentInfo = [
+//     {
+//         name : "Dina", id: "10", address: "Manda,Dhaka-1214"
+//     },
+//     {
+//         name : "Santo", id: "1", address: "Jamalpur"
+//     },
+//     {
+//         name : "Samiul", id: "5", address: "Chandpur"
+//     },
+//     {
+//         name : "Tamim", id: "12", address: "Shaheb Bazar"
+//     },
+// ]
+// console.log(studentInfo[3]);
+// for(let i = 0; i < studentInfo.length; i++){
+//     console.log(studentInfo[i]);
+    
+// }
+// callback function
+// function greeting(name, demo){
+//     console.log("Hello " + name);
+//     demo();
+// }
+// function demo(){
+//     console.log("I'm free now!");
+// }
+// greeting("World", demo);
+
+// map
+// studentInfo.map((item)=>{
+// console.log(item);
+
+// })
+
+// filter 
+// const number = [2,3,4,5,67,8];
+// const newNumbers = number.filter((num)=> num > 5
+// )
+// console.log(newNumbers);
+
+// find
+// const number = [2,3,4,5,67,8];
+// const newNumbers = number.find((num)=> num > 5
+// )
+// console.log(newNumbers);
+
+// string method
+// let alphabetText = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// console.log(alphabetText.length);
+// let alphabetText = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// console.log(alphabetText.charAt(3));
+// split method
+// let text = "Hello World";
+// console.log(text.split(" "[0]));
+
+// slice method
+
+// const number = [1,2,3,4,5,6,7,8,9];
+// const newNumber = number.slice(3,7);
+// console.log(newNumber);
+//    console.log(number);
+   
+
+// splice method
+
+// const number = [1,2,3,4,5,6,7,8,9];
+// const newNumber = number.splice(2,3);
+// console.log(newNumber);
+//    console.log(number);
+
+// reduce method
+
+// const price = [2,3,4,5,6];
+// const total = price.reduce((acc , current)=>{
+//     return acc + current;
+// },0)
+// console.log(total);
+
+// string split method
+// let text = "Hello World";
+// const texts = text.split(" ",2);
+// console.log(texts);
+// console.log(text);
+
+// string replace method
+
+// let text = "Hello World";
+// const texts = text.replace("Hello","Mern-2408");
+// console.log(texts);
+// console.log(text);
+
+
+
+
+
+
+
+
+
+// Record-01 (Add,Remove,Toggle)
+
+// let one = document.querySelector('.one');
+// let btn = document.querySelector('.btn');
+
+// btn.addEventListener('Click', function() {
+//     console.log('Ok Cool!');
+//     // one.classList.add('two')
+//     // one.classList.remove('two')
+//     one.classList.toggle('two')
+// })
+
+// Record-02 (Atribute Property)
+
+// let test = document.querySelector('.user');
+// console.log(test.className);
+// let info = {
+//     name:"Dina"
+// }
+// console.log(info.name);
+
+// Record-03 (Child Nodes)
+
+// let list = document.querySelector('ul');
+// console.log(list.child);
+// console.log(list.childNodes);
+// console.log(list.firstChild);
+// console.log(list.firstElementChild);
+// console.log(list.lastElementChild);
+
+// Record-04 (declaration expression IIFE)
+// Function Declaration
+// function greeting(){
+//     console.log("Hello Mern-2408");
+// }
+// greeting();
+// Function Expression
+// const demo = function(){
+//     console.log("Hello Mern-2408");
+// }
+// demo();
+// IIFE Function 
+// (function(){
+//     console.log("Hello!");
+// })();
+
+// Record-05 (function vs method)
+// const info = {
+//     id:"10",
+//     fullName: function(){
+//         console.log("Nusrat Jahan Dina");
+//     }
+    
+// }
+// info.fullName();
+
+// Record-06 (arrow function)
+// const information = (a,b)=>{
+//     return a + b;
+// }
+// console.log(information(10,10));
+
+// Record-07 (default parameter value)
+// function add(a, b = 'No argument pass'){
+//     return a + b;
+// } 
+// add(20,10);
+
+// Record-08 (add, modify and delete object)
+// const info = {
+//     name: "Dina",
+//     email: "dinujahan@gmail.com"
+// }
+// info.phone = '01306409484'
+// delete info.phone
+// console.log(info);
+
+// Record-09 (filter)
+// const age = [10,20,30,40,50,60,70,80,90];
+// const newAgeCollection = age.filter((item)=>{
+//         return item < 50;
+// })
+// console.log(newAgeCollection);
+
+// Record-10 (filter)
+// const info = [
+// {
+//     name: "Dina",
+//     roll: '1'
+// },
+//  {
+//     name: "Santo",
+//     roll: '2'
+// },
+//  {
+//     name: "Samiul",
+//     roll: '3'
+// },
+// {
+//     name: "Tamim",
+//     roll: '4'
+// },
+
+// ]
+// const search = info.findIndex((item)=>{
+//       return item.roll === '3'
+// })
+// console.log(search);
+
+// Record-10 (destructing)
+// const person = {
+//     name: "Dina",
+//     age: '19',
+//     gender:'Female',
+//     Email:'dinujahan@gmail.com'
+// }
+// let {name:demoName,age,gender,email} = person;
+// console.log(demoName);
+// console.log(age);
+
+// Record-10 (spread operstor)
+// let nameArr = ['Dina','Lamia','Tamima'];
+// let newNameArr = [...nameArr, 'Samiul','Santo'];
+// console.log(newNameArr);
+
+// Record-10 (sorting data reverse data)
+// const sortData = [3,2,9,5,7,1];
+// const newSortData = sortData.sort();
+// console.log(newSortData);
+// Reverse Data
+// const reverseData = [1,2,3,4,5,6,7,8,9];
+// const newReverseData = reverseData.reverse();
+// console.log(newReverseData);
+
+// Record-10 (sorting data,reverse data and update)
+
+// const sortData = [3,2,9,5,7,1];
+// const newSortData = sortData.toSorted();
+// console.log(newSortData);
+// console.log(sortData);
+// Reverse Data
+// const reverseData = [1,2,3,4,5,6,7,8,9];
+// const newReverseData = reverseData.toReversed();
+// console.log(newReverseData);
+// console.log(reverseData);
+
+// Record-10 (Rest Operator)
+// function demo(...a){
+//     console.log(a);
+// }demo(2,3,4,67,43,87)
+
+
+// function demo(b,...a){
+//     let sum = 0;
+//     a.map((item)=>{
+//         sum += item;
+//     })
+//     console.log(sum);
+//     console.log(b);
+// }demo('Total : ',2,3,4,67,43,87)
+
+// Record-10 (Slice & Splice Method)
+// slice method
+
+// const number = [1,2,3,4,5,6,7,8,9];
+// const newNumber = number.slice(3,7);
+// console.log(newNumber);
+//    console.log(number);
+   
+
+// splice method
+
+// const number = [1,2,3,4,5,6,7,8,9];
+// const newNumber = number.splice(2,3);
+// console.log(newNumber);
+//    console.log(number);
