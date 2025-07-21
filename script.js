@@ -529,5 +529,64 @@
 
 // const parent = document.querySelector("#list li:last-child")
 // console.log(parent);
+// body background color change
+
+// function getColor(){
+//     demo.style.backgroundColor = "red"
+// }
+
+// const demo = document.getElementById('one')
+// function getColor(){
+//     demo.style.backgroundColor = "red"
+// }
+
+// addEventListener
+
+// const inputField = document.getElementById('input')
+// const btnField = document.getElementById('btn')
+// const emptyField = document.getElementById('empty')
+
+// btnField.addEventListener('click',function(){
+//     console.log(inputField.value);
+//     if(inputField.value == ''){
+//         console.log("Empty");
+//         emptyField.innerHTML = 'Please fill the data'
+//         inputField.style.border = '1px solid red'
+//         // inputField.style.display = 'none'
+//     }
+    
+// })
+// setTimeout
+// console.log('1');
+// setTimeout(()=>{
+//     console.log('3');
+// },2000)
+// console.log('2');
+
+const counter = document.querySelectorAll('.counter')
+const arr = Array.from(counter)
+console.log(arr);
+arr.map((counter)=>{   
+console.log(counter.dataset.number);
+let count = 0
+function greeting(){
+    count++
+    // console.log(count);
+    counter.innerHTML = count
+    if(counter.dataset.number == count){
+        console.log("Stop");
+        clearInterval(stop)
+    }
+}
+const stop = setInterval(greeting,counter.dataset.speed)
+    
+})
+
+
+
+
+
+
+
 
 
