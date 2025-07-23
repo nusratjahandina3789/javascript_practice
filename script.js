@@ -578,7 +578,7 @@ function greeting(){
         clearInterval(stop)
     }
 }
-const stop = setInterval(greeting,counter.dataset.speed)
+const stop = setInterval(greeting,counter.dataset.number / counter.dataset.speed)
     
 })
 
